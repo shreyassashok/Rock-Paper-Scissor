@@ -12,8 +12,8 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 200rem;
-  transition: 100ms;
+  font-size: 2rem;
+  transition: 10ms;
 }
 
 .selection:hover {
@@ -31,7 +31,7 @@ body {
 
 .result-score {
   margin-left: .1rem;
-  font-size: .500rem;
+  font-size: .5rem;
   color: #333;
 }
 
