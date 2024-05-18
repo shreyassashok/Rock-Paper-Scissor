@@ -18,8 +18,8 @@ const SELECTIONS = [
     emoji: '✌',
     beats: 'paper'
   }
+]
 
-};
 selectionButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection
