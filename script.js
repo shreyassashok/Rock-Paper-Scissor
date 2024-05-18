@@ -26,19 +26,19 @@ const choiceStyles = {
 };
 
 const emojiStyles = {
-  fontSize: 64,
+  fontSize: 10,
   marginRight: 20
 };
 
 const nameStyles  = {
   margin: 0,
-  fontSize: 24,
+  fontSize: 10,
   color: "#FFF"
 };
 
 const resultStyle = {
   marginTop: 40,
-  fontSize: 48,
+  fontSize: 10,
   color: "#FFF"
 };
 selectionButtons.forEach(selectionButton => {
