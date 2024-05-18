@@ -7,6 +7,7 @@ const SELECTIONS = [
     name: 'rock',
     emoji: '✊', 
     beats: 'scissors'
+    font-size:'10'
   },
   {
     name: 'paper',
