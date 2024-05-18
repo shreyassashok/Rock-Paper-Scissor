@@ -13,7 +13,7 @@ body {
   outline: none;
   cursor: pointer;
   font-size: 2rem;
-  transition: 1000ms;
+  transition: 100000ms;
 }
 
 .selection:hover {
