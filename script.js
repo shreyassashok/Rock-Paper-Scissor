@@ -18,28 +18,7 @@ const SELECTIONS = [
     emoji: '✌',
     beats: 'paper'
   }
-]
-const choiceStyles = {
-  display: "flex",
-  alignItems: "center",
-  marginBottom: 40
-};
 
-const emojiStyles = {
-  fontSize: 10,
-  marginRight: 20
-};
-
-const nameStyles  = {
-  margin: 0,
-  fontSize: 10,
-  color: "#FFF"
-};
-
-const resultStyle = {
-  marginTop: 40,
-  fontSize: 10,
-  color: "#FFF"
 };
 selectionButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
