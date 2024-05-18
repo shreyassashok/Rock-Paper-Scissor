@@ -5,7 +5,7 @@ const yourScoreSpan = document.querySelector('[data-your-score]')
 const SELECTIONS = [
   {
     name: 'rock',
-    emoji: '✊', (font-size = 50)
+    emoji: '✊', 
     beats: 'scissors'
   },
   {
@@ -19,7 +19,28 @@ const SELECTIONS = [
     beats: 'paper'
   }
 ]
+const choiceStyles = {
+  display: "flex",
+  alignItems: "center",
+  marginBottom: 40
+};
 
+const emojiStyles = {
+  fontSize: 64,
+  marginRight: 20
+};
+
+const nameStyles  = {
+  margin: 0,
+  fontSize: 24,
+  color: "#FFF"
+};
+
+const resultStyle = {
+  marginTop: 40,
+  fontSize: 48,
+  color: "#FFF"
+};
 selectionButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection
